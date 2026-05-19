@@ -5,7 +5,7 @@ function VerificarLogin() {
 
     if(login==="admin" && senha=== "123456"){
         alert("Acesso Liberado");
-        window.location.href="Produtos.html";
+        window.location.href="produtos.html";
 
     }
     else{
