@@ -1,11 +1,12 @@
 * {
     box-sizing: border-box;
 }
-    h1{
+h1{
         text-align: center;
         font-family: Arial, Helvetica, sans-serif;
-    }
-    .Box{
+}
+
+.box{
         font-family: Arial, Helvetica, sans-serif;
         width: 400px;
         height: 400px;
@@ -13,11 +14,21 @@
         border: solid 10px rgba(0,0,0,0.9);
         padding: 60px;
         
-    }
-    body{
-        background-color: pink;
-    }
+}
 
+body{
+        background-color: pink;
+}
+
+.pratos img{
+        width: 180px;
+        height: 200px;  
+        border-radius: 8px;
+}
+
+.pratos img:hover{
+    transform: scale(1.5);
+}
     
 
 
